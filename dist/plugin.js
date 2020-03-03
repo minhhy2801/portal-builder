@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".portal-builder-header {\\n    background-color: DodgerBlue;\\n    width: 100%;\\n    height: 40px;\\n}\\n\\n.portal-builder-header .btn-portal-builder-header {\\n    background-color: DodgerBlue;\\n    border: none;\\n    float: right;\\n    padding-right: 3vw;\\n    height: inherit;\\n}\\n\\n.portal-builder-header .btn-portal-builder-header i {\\n    color: white;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".portal-builder-header {\\n    background-color: DodgerBlue;\\n    width: 100%;\\n    height: 60px;\\n}\\n\\n.portal-builder-header .btn-portal-builder-header {\\n    background-color: DodgerBlue;\\n    padding-right: 3vw;\\n}\\n\\n.btn-icon {\\n    background-color: transparent;\\n    border: none;\\n    height: inherit;\\n    min-height: 40px;\\n    cursor: pointer;\\n}\\n\\n.portal-builder-header .btn-icon, .portal-builder-content-left .btn-icon, \\n.portal-builder-content-main .tabs-container .tabs-content .btn-icon {\\n    float: right;\\n}\\n\\n.portal-builder-header .btn-portal-builder-header i {\\n    color: white;\\n}\\n\\n.portal-builder-content-left, .portal-builder-content-right, .portal-builder-content-main {\\n    border: 1px solid #cccccc;\\n    min-height: 80vh;\\n}\\n\\n.portal-builder-content-left {\\n    width: 20vw;\\n}\\n\\n.portal-builder-content-right {\\n    width: 25vw;\\n}\\n\\n.portal-builder-content-main {\\n    width: 55vw;\\n}\\n\\n.portal-builder-content-left .portal-item {\\n    min-height: 40px;\\n    line-height: 40px;\\n    cursor: pointer;\\n    margin-left: 5px;\\n}\\n\\n.portal-builder-content-right .widget-item {\\n    min-height: 60px;\\n    cursor: pointer;\\n    width: 47%;\\n    border: 1px solid #cccccc;\\n    display: inline-block;\\n    margin: 5px;\\n}\\n\\n.portal-builder-content-right .widget-item .btn-icon {\\n    width: 100%;\\n}\\n\\n.portal-builder-content-right .widget-item span {\\n    width: 100%;\\n    display: inline-block;\\n    text-align: center;\\n}\\n\\n.portal-builder-content-main .tabs-container {\\n    border: 1px solid #cccccc;\\n    min-height: 50vh;\\n    padding: 10px;\\n    margin: 20px;\\n}\\n\\n.portal-builder-content-main .tabs-container .tabs-tabpane {\\n    border: 1px solid #8c8c8c;\\n    background-color: #cccccc;\\n    border-right: 0;\\n    height: 30px;\\n    line-height: 30px;\\n    display: inline-block;\\n    padding-left: 20px;\\n    padding-right: 20px;\\n}\\n\\n.tabs-tabpane-active {\\n    background-color: white !important;\\n}\\n\\n.portal-builder-content-main .tabs-container .tabs-tabpane:last-child {\\n    border-right: 1px solid #8c8c8c;\\n}\\n\\n/* TABS_CLASS: 'tabs-container', */\\n\\n/* TABPANE_CLASS: 'tabs-tabpane' */\\n\\n.flex-display, .portal-builder-container {\\n    display: flex;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -148,11 +148,11 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /*!**********************************!*\
   !*** ./src/resource/constant.js ***!
   \**********************************/
-/*! exports provided: APP_ID, HEADER_CLASS, BUTTON_HEADER_CLASS, ICON */
+/*! exports provided: APP_ID, HEADER_CLASS, BUTTON_HEADER_CLASS, BUTTON_ICON_CLASS, CONTAINTER_CLASS, LEFT_CONTENT_CLASS, RIGHT_CONTENT_CLASS, MAIN_CONTENT_CLASS, PORTAL_CLASS, FLEX_CLASS, WIDGET_CLASS, TABS, ICON */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"APP_ID\", function() { return APP_ID; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"HEADER_CLASS\", function() { return HEADER_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"BUTTON_HEADER_CLASS\", function() { return BUTTON_HEADER_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ICON\", function() { return ICON; });\nconst APP_ID = 'app';\nconst HEADER_CLASS = 'portal-builder-header';\nconst BUTTON_HEADER_CLASS = 'btn-portal-builder-header';\nconst ICON = {\n  SIZE: 'fa-2x',\n  SETTING: 'fas fa-cog'\n};\n\n\n//# sourceURL=webpack:///./src/resource/constant.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"APP_ID\", function() { return APP_ID; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"HEADER_CLASS\", function() { return HEADER_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"BUTTON_HEADER_CLASS\", function() { return BUTTON_HEADER_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"BUTTON_ICON_CLASS\", function() { return BUTTON_ICON_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"CONTAINTER_CLASS\", function() { return CONTAINTER_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"LEFT_CONTENT_CLASS\", function() { return LEFT_CONTENT_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"RIGHT_CONTENT_CLASS\", function() { return RIGHT_CONTENT_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"MAIN_CONTENT_CLASS\", function() { return MAIN_CONTENT_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"PORTAL_CLASS\", function() { return PORTAL_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"FLEX_CLASS\", function() { return FLEX_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"WIDGET_CLASS\", function() { return WIDGET_CLASS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"TABS\", function() { return TABS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ICON\", function() { return ICON; });\nconst APP_ID = 'app';\nconst HEADER_CLASS = 'portal-builder-header';\nconst LEFT_CONTENT_CLASS = 'portal-builder-content-left';\nconst CONTAINTER_CLASS = 'portal-builder-container';\nconst RIGHT_CONTENT_CLASS = 'portal-builder-content-right';\nconst MAIN_CONTENT_CLASS = 'portal-builder-content-main';\nconst PORTAL_CLASS = 'portal-item';\nconst WIDGET_CLASS = 'widget-item';\nconst TABS = {\n  TABS_CLASS: 'tabs-container',\n  TABPANE_CLASS: 'tabs-tabpane',\n  TABCONTENT_CLASS: 'tabs-content',\n  TABPANE_ACTIVE_CLASS: 'tabs-tabpane-active'\n};\nconst BUTTON_HEADER_CLASS = 'btn-portal-builder-header';\nconst FLEX_CLASS = 'flex-display';\nconst BUTTON_ICON_CLASS = 'btn-icon';\nconst ICON = {\n  SIZE_2x: 'fa-2x',\n  SIZE_3x: 'fa-3x',\n  SETTING: 'fas fa-cog',\n  DEPLOY: 'fas fa-rocket',\n  ADD: 'fas fa-plus',\n  IFRAME: 'fas fa-columns',\n  HTML: 'fas fa-code'\n};\n\n\n//# sourceURL=webpack:///./src/resource/constant.js?");
 
 /***/ }),
 
@@ -168,6 +168,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/view/PortalBuilder/AddPortal.js":
+/*!*********************************************!*\
+  !*** ./src/view/PortalBuilder/AddPortal.js ***!
+  \*********************************************/
+/*! exports provided: AddPortal */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"AddPortal\", function() { return AddPortal; });\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../resource/constant */ \"./src/resource/constant.js\");\n/* harmony import */ var _components_Common_IconButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Common/IconButton */ \"./src/view/components/Common/IconButton.js\");\n\n\n\nconst AddPortal = (name, className) => {\n  const addPortalDOM = document.createElement('div');\n  const addSpanDOM = document.createElement('span');\n  const addBtn = Object(_components_Common_IconButton__WEBPACK_IMPORTED_MODULE_1__[\"IconButton\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].ADD, _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].SIZE_2x, _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"BUTTON_ICON_CLASS\"]);\n  addSpanDOM.textContent = name;\n  addPortalDOM.className = `${_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"PORTAL_CLASS\"]} ${className}`;\n  addPortalDOM.appendChild(addBtn);\n  addPortalDOM.appendChild(addSpanDOM);\n  return addPortalDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/PortalBuilder/AddPortal.js?");
+
+/***/ }),
+
+/***/ "./src/view/PortalBuilder/Portal.js":
+/*!******************************************!*\
+  !*** ./src/view/PortalBuilder/Portal.js ***!
+  \******************************************/
+/*! exports provided: Portal */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Portal\", function() { return Portal; });\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../resource/constant */ \"./src/resource/constant.js\");\n/* harmony import */ var _components_Common_IconButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Common/IconButton */ \"./src/view/components/Common/IconButton.js\");\n\n\n\nconst Portal = name => {\n  const portalDOM = document.createElement('div');\n  portalDOM.textContent = name;\n  portalDOM.className = _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"PORTAL_CLASS\"];\n  const deployBtn = Object(_components_Common_IconButton__WEBPACK_IMPORTED_MODULE_1__[\"IconButton\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].DEPLOY, _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].SIZE_2x, _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"BUTTON_ICON_CLASS\"]);\n  portalDOM.appendChild(deployBtn);\n  return portalDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/PortalBuilder/Portal.js?");
+
+/***/ }),
+
+/***/ "./src/view/PortalBuilder/Widget.js":
+/*!******************************************!*\
+  !*** ./src/view/PortalBuilder/Widget.js ***!
+  \******************************************/
+/*! exports provided: Widget */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Widget\", function() { return Widget; });\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../resource/constant */ \"./src/resource/constant.js\");\n/* harmony import */ var _components_Common_IconButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Common/IconButton */ \"./src/view/components/Common/IconButton.js\");\n\n\n\nconst Widget = (iconName, iconSize, iconBtnClassName, name) => {\n  const widgetDOM = document.createElement('div');\n  const spanDOM = document.createElement('span');\n  const iconBtn = Object(_components_Common_IconButton__WEBPACK_IMPORTED_MODULE_1__[\"IconButton\"])(iconName, iconSize, `${_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"BUTTON_ICON_CLASS\"]} ${iconBtnClassName}`);\n  spanDOM.textContent = name;\n  widgetDOM.className = _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"WIDGET_CLASS\"];\n  widgetDOM.appendChild(iconBtn);\n  widgetDOM.appendChild(spanDOM);\n  return widgetDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/PortalBuilder/Widget.js?");
+
+/***/ }),
+
 /***/ "./src/view/PortalBuilder/index.js":
 /*!*****************************************!*\
   !*** ./src/view/PortalBuilder/index.js ***!
@@ -176,7 +212,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"PortalBuilder\", function() { return PortalBuilder; });\n/* harmony import */ var _components_Common_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Common/Header */ \"./src/view/components/Common/Header.js\");\n/* harmony import */ var _utils_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/util */ \"./src/utils/util.js\");\n\n\n\nconst PortalBuilder = () => {\n  const portalBuilder = document.createElement('div');\n  const test = document.createElement('h1');\n  test.textContent = 'Portal Builder';\n  const link2 = Object(_utils_util__WEBPACK_IMPORTED_MODULE_1__[\"createLinkRouter\"])('settings-builder', 'Go to settings-builder', '#/settings-builder');\n  const link1 = Object(_utils_util__WEBPACK_IMPORTED_MODULE_1__[\"createLinkRouter\"])('home', 'Go to home', '#/home');\n  portalBuilder.appendChild(link1);\n  portalBuilder.appendChild(link2);\n  portalBuilder.appendChild(test);\n  portalBuilder.appendChild(Object(_components_Common_Header__WEBPACK_IMPORTED_MODULE_0__[\"Header\"])());\n  return portalBuilder;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/PortalBuilder/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"PortalBuilder\", function() { return PortalBuilder; });\n/* harmony import */ var _components_Common_Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Common/Header */ \"./src/view/components/Common/Header.js\");\n/* harmony import */ var _utils_util__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/util */ \"./src/utils/util.js\");\n/* harmony import */ var _components_Common_Content__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Common/Content */ \"./src/view/components/Common/Content.js\");\n/* harmony import */ var _Portal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Portal */ \"./src/view/PortalBuilder/Portal.js\");\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../resource/constant */ \"./src/resource/constant.js\");\n/* harmony import */ var _AddPortal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./AddPortal */ \"./src/view/PortalBuilder/AddPortal.js\");\n/* harmony import */ var _Widget__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Widget */ \"./src/view/PortalBuilder/Widget.js\");\n/* harmony import */ var _components_Common_Tabs__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/Common/Tabs */ \"./src/view/components/Common/Tabs.js\");\n\n\n\n\n\n\n\n\n\nconst PortalBuilder = () => {\n  const portalBuilder = document.createElement('div');\n  const title = document.createElement('h1');\n  title.textContent = 'Portal Builder';\n  const link2 = Object(_utils_util__WEBPACK_IMPORTED_MODULE_1__[\"createLinkRouter\"])('settings-builder', 'Go to settings-builder', '#/settings-builder');\n  const link1 = Object(_utils_util__WEBPACK_IMPORTED_MODULE_1__[\"createLinkRouter\"])('home', 'Go to home', '#/home');\n  portalBuilder.appendChild(link1);\n  portalBuilder.appendChild(link2);\n  portalBuilder.appendChild(title);\n  portalBuilder.appendChild(Object(_components_Common_Header__WEBPACK_IMPORTED_MODULE_0__[\"Header\"])());\n  const container = document.createElement('div');\n  container.className = _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"CONTAINTER_CLASS\"];\n  let listPortals = [];\n  listPortals.push(Object(_Portal__WEBPACK_IMPORTED_MODULE_3__[\"Portal\"])('Portal 1'));\n  listPortals.push(Object(_Portal__WEBPACK_IMPORTED_MODULE_3__[\"Portal\"])('Portal 2'));\n  listPortals.push(Object(_AddPortal__WEBPACK_IMPORTED_MODULE_5__[\"AddPortal\"])('New Portal', _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"FLEX_CLASS\"]));\n  let listWidgets = [];\n  listWidgets.push(Object(_Widget__WEBPACK_IMPORTED_MODULE_6__[\"Widget\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"ICON\"].IFRAME, _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"ICON\"].SIZE_3x, '', 'Iframe'));\n  listWidgets.push(Object(_Widget__WEBPACK_IMPORTED_MODULE_6__[\"Widget\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"ICON\"].HTML, _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"ICON\"].SIZE_3x, '', 'HTML'));\n  let dataTabs = [{\n    name: 'Standard Portal',\n    content: 'Standard Portal content'\n  }, {\n    name: 'My Email',\n    content: 'My Email, content'\n  }, {\n    name: 'Schedule',\n    content: 'Schedule, content'\n  }];\n  const tabs = Object(_components_Common_Tabs__WEBPACK_IMPORTED_MODULE_7__[\"Tabs\"])(dataTabs, _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"TABS\"].TABS_CLASS);\n  container.appendChild(Object(_components_Common_Content__WEBPACK_IMPORTED_MODULE_2__[\"Content\"])(listPortals, _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"LEFT_CONTENT_CLASS\"]));\n  container.appendChild(Object(_components_Common_Content__WEBPACK_IMPORTED_MODULE_2__[\"Content\"])([tabs], _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"MAIN_CONTENT_CLASS\"]));\n  container.appendChild(Object(_components_Common_Content__WEBPACK_IMPORTED_MODULE_2__[\"Content\"])(listWidgets, _resource_constant__WEBPACK_IMPORTED_MODULE_4__[\"RIGHT_CONTENT_CLASS\"]));\n  portalBuilder.appendChild(container);\n  return portalBuilder;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/PortalBuilder/index.js?");
+
+/***/ }),
+
+/***/ "./src/view/components/Common/Content.js":
+/*!***********************************************!*\
+  !*** ./src/view/components/Common/Content.js ***!
+  \***********************************************/
+/*! exports provided: Content */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Content\", function() { return Content; });\nconst Content = (contentChildDOM, className) => {\n  const contentDOM = document.createElement('div');\n  contentDOM.className = className;\n  contentChildDOM.forEach(element => {\n    contentDOM.appendChild(element);\n  });\n  return contentDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/components/Common/Content.js?");
 
 /***/ }),
 
@@ -188,7 +236,43 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Header\", function() { return Header; });\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../resource/constant */ \"./src/resource/constant.js\");\n\n\nconst Header = () => {\n  const headerDOM = document.createElement('div');\n  const settingBtn = document.createElement('button');\n  const settingIcon = document.createElement('i');\n  headerDOM.className = _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"HEADER_CLASS\"];\n  settingBtn.className = _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"BUTTON_HEADER_CLASS\"];\n  settingIcon.className = `${_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].SETTING} ${_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].SIZE}`;\n  settingBtn.appendChild(settingIcon);\n  headerDOM.appendChild(settingBtn);\n  return headerDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/components/Common/Header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Header\", function() { return Header; });\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../resource/constant */ \"./src/resource/constant.js\");\n/* harmony import */ var _IconButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./IconButton */ \"./src/view/components/Common/IconButton.js\");\n\n\n\nconst Header = () => {\n  const headerDOM = document.createElement('div');\n  const settingBtn = Object(_IconButton__WEBPACK_IMPORTED_MODULE_1__[\"IconButton\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].SETTING, _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"ICON\"].SIZE_3x, `${_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"BUTTON_HEADER_CLASS\"]} ${_resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"BUTTON_ICON_CLASS\"]}`);\n  headerDOM.className = _resource_constant__WEBPACK_IMPORTED_MODULE_0__[\"HEADER_CLASS\"];\n  headerDOM.appendChild(settingBtn);\n  return headerDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/components/Common/Header.js?");
+
+/***/ }),
+
+/***/ "./src/view/components/Common/IconButton.js":
+/*!**************************************************!*\
+  !*** ./src/view/components/Common/IconButton.js ***!
+  \**************************************************/
+/*! exports provided: IconButton */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"IconButton\", function() { return IconButton; });\nconst IconButton = (iconName, iconSize, btnClass) => {\n  const btn = document.createElement('button');\n  const icon = document.createElement('i');\n  btn.className = btnClass;\n  icon.className = `${iconName} ${iconSize}`;\n  btn.appendChild(icon);\n  return btn;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/components/Common/IconButton.js?");
+
+/***/ }),
+
+/***/ "./src/view/components/Common/Tab.js":
+/*!*******************************************!*\
+  !*** ./src/view/components/Common/Tab.js ***!
+  \*******************************************/
+/*! exports provided: Tab */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Tab\", function() { return Tab; });\nconst Tab = (name, className) => {\n  const tabDOM = document.createElement('div');\n  tabDOM.textContent = name;\n  tabDOM.className = className;\n  return tabDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/components/Common/Tab.js?");
+
+/***/ }),
+
+/***/ "./src/view/components/Common/Tabs.js":
+/*!********************************************!*\
+  !*** ./src/view/components/Common/Tabs.js ***!
+  \********************************************/
+/*! exports provided: Tabs */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"Tabs\", function() { return Tabs; });\n/* harmony import */ var _Tab__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Tab */ \"./src/view/components/Common/Tab.js\");\n/* harmony import */ var _resource_constant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../resource/constant */ \"./src/resource/constant.js\");\n/* harmony import */ var _IconButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./IconButton */ \"./src/view/components/Common/IconButton.js\");\n\n\n\n\nconst Tabs = (tabData, className) => {\n  const tabsDOM = document.createElement('div');\n  const tabContentDOM = document.createElement('div');\n  tabsDOM.className = className;\n  tabData.forEach((item, i) => {\n    let tab = null;\n    tab = Object(_Tab__WEBPACK_IMPORTED_MODULE_0__[\"Tab\"])(item.name, _resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"TABS\"].TABPANE_CLASS);\n\n    if (i === 0) {\n      tab = Object(_Tab__WEBPACK_IMPORTED_MODULE_0__[\"Tab\"])(item.name, `${_resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"TABS\"].TABPANE_CLASS} ${_resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"TABS\"].TABPANE_ACTIVE_CLASS}`);\n    }\n\n    tabsDOM.appendChild(tab);\n  });\n  tabsDOM.appendChild(Object(_IconButton__WEBPACK_IMPORTED_MODULE_2__[\"IconButton\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"ICON\"].ADD, '', _resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"BUTTON_ICON_CLASS\"]));\n  tabContentDOM.textContent = tabData[0].content;\n  tabContentDOM.className = _resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"TABS\"].TABCONTENT_CLASS;\n  tabContentDOM.appendChild(Object(_IconButton__WEBPACK_IMPORTED_MODULE_2__[\"IconButton\"])(_resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"ICON\"].SETTING, '', `${_resource_constant__WEBPACK_IMPORTED_MODULE_1__[\"BUTTON_ICON_CLASS\"]}`));\n  tabsDOM.appendChild(tabContentDOM);\n  tabsDOM.appendChild(tabContentDOM);\n  return tabsDOM;\n};\n\n\n\n//# sourceURL=webpack:///./src/view/components/Common/Tabs.js?");
 
 /***/ })
 

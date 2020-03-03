@@ -1,17 +1,104 @@
 .portal-builder-header {
     background-color: DodgerBlue;
     width: 100%;
-    height: 40px;
+    height: 60px;
 }
 
 .portal-builder-header .btn-portal-builder-header {
     background-color: DodgerBlue;
-    border: none;
-    float: right;
     padding-right: 3vw;
+}
+
+.btn-icon {
+    background-color: transparent;
+    border: none;
     height: inherit;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.portal-builder-header .btn-icon, .portal-builder-content-left .btn-icon, 
+.portal-builder-content-main .tabs-container .tabs-content .btn-icon {
+    float: right;
 }
 
 .portal-builder-header .btn-portal-builder-header i {
     color: white;
+}
+
+.portal-builder-content-left, .portal-builder-content-right, .portal-builder-content-main {
+    border: 1px solid #cccccc;
+    min-height: 80vh;
+}
+
+.portal-builder-content-left {
+    width: 20vw;
+}
+
+.portal-builder-content-right {
+    width: 25vw;
+}
+
+.portal-builder-content-main {
+    width: 55vw;
+}
+
+.portal-builder-content-left .portal-item {
+    min-height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.portal-builder-content-right .widget-item {
+    min-height: 60px;
+    cursor: pointer;
+    width: 47%;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    margin: 5px;
+}
+
+.portal-builder-content-right .widget-item .btn-icon {
+    width: 100%;
+}
+
+.portal-builder-content-right .widget-item span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.portal-builder-content-main .tabs-container {
+    border: 1px solid #cccccc;
+    min-height: 50vh;
+    padding: 10px;
+    margin: 20px;
+}
+
+.portal-builder-content-main .tabs-container .tabs-tabpane {
+    border: 1px solid #8c8c8c;
+    background-color: #cccccc;
+    border-right: 0;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tabs-tabpane-active {
+    background-color: white !important;
+}
+
+.portal-builder-content-main .tabs-container .tabs-tabpane:last-child {
+    border-right: 1px solid #8c8c8c;
+}
+
+/* TABS_CLASS: 'tabs-container', */
+
+/* TABPANE_CLASS: 'tabs-tabpane' */
+
+.flex-display, .portal-builder-container {
+    display: flex;
 }

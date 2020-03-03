@@ -1,13 +1,10 @@
-import { BUTTON_HEADER_CLASS, HEADER_CLASS, ICON } from "../../../resource/constant";
+import { BUTTON_HEADER_CLASS, HEADER_CLASS, ICON, BUTTON_ICON_CLASS } from "../../../resource/constant";
+import { IconButton } from "./IconButton";
 
 const Header = () => {
     const headerDOM = document.createElement('div');
-    const settingBtn = document.createElement('button');
-    const settingIcon = document.createElement('i');
+    const settingBtn = IconButton(ICON.SETTING, ICON.SIZE_3x, `${BUTTON_HEADER_CLASS} ${BUTTON_ICON_CLASS}`)
     headerDOM.className = HEADER_CLASS
-    settingBtn.className = BUTTON_HEADER_CLASS
-    settingIcon.className = `${ICON.SETTING} ${ICON.SIZE}`
-    settingBtn.appendChild(settingIcon)
     headerDOM.appendChild(settingBtn)
     return headerDOM;
 }
