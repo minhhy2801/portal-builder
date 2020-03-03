@@ -1,4 +1,4 @@
-import { createLinkRouter } from "../utils/util";
+import { createLinkRouter } from "../../utils/util";
 
 const SettingsBuilder = () => {
     const settingsBuilder = document.createElement('div')

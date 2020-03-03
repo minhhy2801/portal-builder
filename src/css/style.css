@@ -1,0 +1,17 @@
+.portal-builder-header {
+    background-color: DodgerBlue;
+    width: 100%;
+    height: 40px;
+}
+
+.portal-builder-header .btn-portal-builder-header {
+    background-color: DodgerBlue;
+    border: none;
+    float: right;
+    padding-right: 3vw;
+    height: inherit;
+}
+
+.portal-builder-header .btn-portal-builder-header i {
+    color: white;
+}

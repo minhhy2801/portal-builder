@@ -1,7 +1,7 @@
-import { appDiv } from "./components/resource/constant";
-import { createLinkRouter } from "./components/utils/util";
-import { PortalBuilder } from "./components/PortalBuilder";
-import { SettingsBuilder } from "./components/SettingBuilder";
+import { APP_ID } from "./resource/constant";
+import { createLinkRouter } from "./utils/util";
+import { PortalBuilder } from "./view/PortalBuilder";
+import './css/style.css'
 
 let views = {}
 let viewPage = (path, render) => {
@@ -9,7 +9,7 @@ let viewPage = (path, render) => {
 }
 
 viewPage('home', () => {
-    let rootDOM = document.getElementById(appDiv);
+    let rootDOM = document.getElementById(APP_ID);
     rootDOM.innerHTML = "";
     const link1 = createLinkRouter('portal-builder', 'Go to portal-builder', '#/portal-builder');
     const link2 = createLinkRouter('settings-builder', 'Go to settings-builder', '#/settings-builder');
@@ -18,13 +18,13 @@ viewPage('home', () => {
 });
 
 viewPage('portal-builder', () => {
-    let rootDOM = document.getElementById(appDiv);
+    let rootDOM = document.getElementById(APP_ID);
     rootDOM.innerHTML = "";
     return rootDOM.appendChild(PortalBuilder());
 });
 
 viewPage('settings-builder', () => {
-    let rootDOM = document.getElementById(appDiv);
+    let rootDOM = document.getElementById(APP_ID);
     rootDOM.innerHTML = "";
     return rootDOM.appendChild(SettingsBuilder());
 });

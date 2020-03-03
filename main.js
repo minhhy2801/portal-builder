@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron')
+
 function createWindow() {
     const win = new BrowserWindow({
         resizable: false,
@@ -10,7 +11,7 @@ function createWindow() {
     win.loadFile('./dist/index.html')
 
     // Open the DevTools.
-    win.webContents.openDevTools() 
+    win.webContents.openDevTools()
 }
 
 app.whenReady().then(createWindow)
