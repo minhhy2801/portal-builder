@@ -7,15 +7,23 @@ const RIGHT_CONTENT_CLASS = 'portal-builder-content-right'
 const MAIN_CONTENT_CLASS = 'portal-builder-content-main'
 const PORTAL_CLASS = 'portal-item'
 const WIDGET_CLASS = 'widget-item'
+const BUTTON_HEADER_CLASS = 'btn-portal-builder-header'
+const FLEX_CLASS = 'flex-display'
+const BUTTON_ICON_CLASS = 'btn-icon'
 const TABS = {
     TABS_CLASS: 'tabs-container',
     TABPANE_CLASS: 'tabs-tabpane',
     TABCONTENT_CLASS: 'tabs-content',
     TABPANE_ACTIVE_CLASS: 'tabs-tabpane-active'
 }
-const BUTTON_HEADER_CLASS = 'btn-portal-builder-header'
-const FLEX_CLASS = 'flex-display'
-const BUTTON_ICON_CLASS = 'btn-icon'
+const MODAL = {
+    CONTAINER_ID: 'modalPortal',
+    CONTAINER_CLASS: 'modal',
+    CONTENT_CLASS: 'modal-content',
+    BODY_CLASS: 'modal-body',
+    HEADER_CLASS: 'modal-header',
+    FOOTER_CLASS: 'modal-footer'
+}
 const ICON = {
     SIZE_2x: 'fa-2x',
     SIZE_3x: 'fa-3x',
@@ -24,6 +32,11 @@ const ICON = {
     ADD: 'fas fa-plus',
     IFRAME: 'fas fa-columns',
     HTML: 'fas fa-code'
+}
+const BUTTON_NAME = {
+    CANCEL: 'Cancel',
+    SAVE: 'Save',
+    CREATE: 'Create'
 }
 export {
     APP_ID,
@@ -38,5 +51,7 @@ export {
     FLEX_CLASS,
     WIDGET_CLASS,
     TABS,
-    ICON
+    ICON,
+    BUTTON_NAME,
+    MODAL
 }
