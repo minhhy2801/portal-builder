@@ -7,6 +7,7 @@ import { AddPortal } from "./AddPortal";
 import { Widget } from "./Widget";
 import { Tabs } from "../components/Common/Tabs";
 import { Modal } from "../components/Common/Modal";
+import { SettingModal } from "./SettingModal/SettingModal";
 
 let dataTabs = [{
     name: 'Standard Portal',
@@ -58,12 +59,11 @@ const PortalBuilder = () => {
     container.appendChild(Content([tabs], MAIN_CONTENT_CLASS))
     container.appendChild(Content(listWidgets, RIGHT_CONTENT_CLASS))
 
-    let listBtns = [{ text: 'Cancel', className: '', onclickFuns: () => { } }]
+    let listBtns = [{ text: 'Cancel', className: '', onclickFuns: () => { } },
+    { text: 'Save', className: '', onclickFuns: () => { } }]
     const modalBodyDOM = document.createElement('div')
-    modalBodyDOM.textContent = 'content'
-    modalBodyDOM.className = MODAL.BODY_CLASS
-    const modalSetting = Modal('Setting', MODAL.CONTAINER_CLASS, listBtns, modalBodyDOM, closeOnClick)
-    portalBuilder.appendChild(modalSetting)
+
+    portalBuilder.appendChild(SettingModal(listBtns, modalBodyDOM, closeOnClick))
     portalBuilder.appendChild(container)
     return portalBuilder
 }
